@@ -16,15 +16,19 @@ h2 {
 
 form {
     background-color: #F5F8FF;
-    max-width: 33rem;
+    max-width: 40rem;
     padding: 2rem 1rem;
     margin: 0 auto;
-    border-radius: 4px;
-    box-shadow: 1px 1px 5px 1px #ccc;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px 1px #ccc;
 }
 
 section {
     margin-bottom: 1rem;
+}
+
+label {
+    color: rgb(34, 43, 61);
 }
 
 .form-group-block label {
@@ -67,7 +71,15 @@ section {
     color: #303A59;
 }
 
+.form-group-button button[type="reset"]:hover {
+    background: #d0d7e6;
+}
+
 .form-group-button button[type="submit"] {
     background: #303A59;
     color: #fff;
+}
+
+.form-group-button button[type="submit"]:hover {
+    background: #455981;
 }
